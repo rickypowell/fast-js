@@ -1,0 +1,20 @@
+{
+  "name": "fast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "rebuild": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "node-gyp": "^5.0.1",
+    "nan": "^2.14.0"
+  },
+  "engines": {
+    "node": "9.8.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true
+}
